@@ -1,0 +1,29 @@
+.header-box {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between logo and buttons */
+  padding: 0 20px; /* Adjust padding for more space around the content */
+  background: #6760ef;
+}
+
+.logo img {
+  height: 50px; /* Smaller logo */
+}
+
+.header-btns {
+  display: flex;
+  align-items: center; /* Center buttons vertically */
+}
+
+@media screen and (max-width: 900px) {
+  .header-box {
+    flex-direction: column; /* Stack logo and buttons on small screens */
+    align-items: center; /* Center items */
+  }
+
+  .header-btns {
+    margin-top: 10px; /* Space between logo and buttons */
+  }
+}

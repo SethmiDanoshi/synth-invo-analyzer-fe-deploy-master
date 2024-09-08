@@ -1,0 +1,51 @@
+.bulk-invoice-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 50px;
+  }
+  
+  .bulk-invoice-upload-content {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .bulk-invoice-upload-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .upload-area {
+    margin-bottom: 40px;
+  }
+  
+  .larger-icon {
+    font-size: 64px;
+  }
+  
+  .larger-text {
+    font-size: 24px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .larger-select {
+    margin-bottom: 40px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .download-template-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
